@@ -1,8 +1,8 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` 
 
-`DISCIPLINA`
+`DISCIPLINA` 
 
 `SEMESTRE`
 
@@ -10,14 +10,16 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Eduardo Vinicius Rodrigues Silva
+* Gustavo Alves Oliveira
+* Henrique Balmant Rocha Araújo
+* Jefferson Filho
+* José Carlos da Costa Júnior
+* Pedro Henrique Lino Raimundo
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa
 
 ## Instruções de utilização
 

@@ -1,44 +1,73 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nos quadros a seguir.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|![Persona-1](img/imgPersonas/persona1.png) |
+|------|
+|**Nome:** `Felipe Gomes`| 
+|**Idade:** `32`|  
+|**Ocupação:** `Líder de Vendas em uma pequena empresa que aluga notebooks e realiza manutenções ` |  
+|**Aplicativos:** `Instagram` `TikTok` `Facebook` `OLX` |  
+|**Motivações** `Consolidar-se profissionalmente no ramo da informática `|
+|**Frustrações:** `Gostaria de passar mais tempo com a família  ` |  
+|**Hobbies:** `Amante de Fotografias e Animais ` |  
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<br>
+
+|![Persona-2](img/imgPersonas/persona2.png) |
+|------|
+|**Nome:** `Patricia Santos `| 
+|**Idade:** `37`|  
+|**Ocupação:** `Vendedora de produtos eletrônicos pela internet, atuando como micro empresária diretamente de sua casa ` |  
+|**Aplicativos:** `Instagram` `TikTok` `OLX` |  
+|**Motivações** `Trabalho Home-Office com liberdade de horário  `|
+|**Frustrações:** `Não ter expandido ainda os negócios  ` |  
+|**Hobbies:** `Adora dançar e estar com os amigos  ` |  
+
+<br>
+
+|![Persona-3](img/imgPersonas/persona3.png) |
+|------|
+|**Nome:** `Gustavo Kenji`| 
+|**Idade:** `22`|  
+|**Ocupação:** `Proprietário de uma pequena empresa virtual que comercializa todos os tipos de produtos gamers` |  
+|**Aplicativos:** `Instagram` `Twitch ` `YouTube`|  
+|**Motivações** `Independência financeira`|
+|**Frustrações:** `Não possuir inglês fluente` |  
+|**Hobbies:** `Jogar vídeo-game e praticar esportes` |  
+
+<br>
+
+|![Persona-4](img/imgPersonas/persona4.png) |
+|------|
+|**Nome:** `Francisco Luz`| 
+|**Idade:** `65`|  
+|**Ocupação:** `Proprietário de Oficina de reparação automóveis ` |  
+|**Aplicativos:** `Instagram` `OLX` |  
+|**Motivações** `Paixão por automóveis`|
+|**Frustrações:** `Gostaria de viajar mais com a família ` |  
+|**Hobbies:** `Paixão por churrasco e assistir futebol` |  
+
+<br>
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ...                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Felipe Gomes  | Organizar o fluxo de entrada e saída de equipamentos de manutenção.           | Diminuir prazos de entrega               |
+|Patricia Santos       | Atualizar estoque de forma rápida eficiente                 | Garantir disponibilidade de produtos|
+|Gustavo Kenji        | Emitir notas fiscais de forma rápida                 |Agilizar processos de venda e envio de produtos|
+|Francisco Luz       | Emitir notas fiscais de forma rápida                 | Agilizar atendimento a clientes e garantir a procedência de peças|
+|Francisco Luz       | Pesquisar disponibilidade de peças de veículos                 | Organizar demandas e facilitar reposição de estoque|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -48,56 +77,41 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário faça login com verificação de senha | ALTA |
+|RF-002| Permitir que o usuário insira um produto no estoque | ALTA |
+|RF-003| Permitir que o usuário classifique o produto inserido por categoria no estoque | MÉDIA |
+|RF-004| Permitir que o usuário remova um produto do estoque   | ALTA |
+|RF-005| Permitir que o usuário pesquise um produto no estoque | ALTA |
+|RF-006| Permitir que o usuário tenha acesso à quantidade atualizada do item no estoque  | ALTA |
+|RF-007| Permitir que o usuário tenha acesso à contagem de itens totais no estoque | MÉDIA |
+|RF-008| Permitir que cada item do estoque tenha um número único | MÉDIA |
+|RF-009| Permitir que o usuário gere uma nota fiscal a partir do número único do produto | MÉDIA |
+
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RNF-001| O banco de dados deve ser hospedado na nuvem para acesso da aplicação | ALTA |
+|RNF-002| A aplicação deve ser publicada em um ambiente acessível publicamente na Internet | ALTA |
+|RNF-003| A aplicação deve ter um tempo de resposta baixo para as requisições | MÉDIA |
+|RNF-004| A aplicação deve ter bom nível de contraste entre os elementos da tela   | MÉDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RE-001| O projeto deve ser entregue no prazo estipulado pelo cronograma letivo |ALTA| 
+|RE-002| A aplicação deve se restringir às tecnologias propostas |ALTA|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Caso de uso](img/casoDeUsoUML%20.png)
+
