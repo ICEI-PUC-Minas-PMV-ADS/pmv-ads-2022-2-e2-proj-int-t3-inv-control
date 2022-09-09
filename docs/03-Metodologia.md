@@ -1,40 +1,32 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Serão abordados nesse tópico as ferramentas utilizadas para a construção da plataforma e manutenções futuras dos códigos e artefatos..
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+## Relação de Ambientes de Trabalho
 
-## Controle de Versão
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+---
 
-O projeto segue a seguinte convenção para o nome de branches:
+| Ambiente                          | Plataforma | Link de acesso                                                                                                          |
+| --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Repositório de código fonte       | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-inv-control                |
+| Documentos do projeto             | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-inv-control/tree/main/docs |
+| Projeto de Interface e Wireframes | Não definido  | Não definido                                                                                           |
+| Gerenciamento do Projeto          | Trello     | https://trello.com/b/8lJOQrrJ/inv-control                                                                               |
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+---
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+## Gestão de código fonte 
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+Para gestão do código fonte da aplicação produzida pela equipe, o grupo utiliza um processo baseado no WorkFlow, mostrado a seguir, retirado de Vietro (2020). Dessa forma, todas as alterações no código são realizadas em branches, nas quais os desenvolvedores devem criar uma branch para cada funcionalidade nova no projeto. Assim, as alterações no código da branch principal se faz por meio de um aceite após um pull request via GitHub.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+---
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+<img src="img/Metodologia/Workflow.png">
 
+###### Fluxo de controle do código fonte no repositório git
 ---
 
 ## Gerenciamento de Projeto
@@ -69,7 +61,7 @@ Para organização e distribuição das tarefas do projeto, a equipe utiliza o T
 O quadro kanban do grupo no Trello está disponível através da URL: https://trello.com/b/8lJOQrrJ/inv-control e é apresentado na imagem abaixo.
 
 
-<img src="img/Kanban.png">
+<img src="img/Metodologia/Kanban.png">
 
 ###### Tela do kanban utilizada pelo grupo
 
@@ -82,6 +74,6 @@ As tarefas são etiquetadas em função da natureza da atividade e seguem o segu
 -	Testes
 -	Gerência de Projetos.
 
-<img src="img/Etiquetas.png">
+<img src="img/Metodologia/Etiquetas.png">
 
 ---

@@ -6,7 +6,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nos quadros a seguir.
 
-|![Persona-1](img/imgPersonas/persona1.png) |
+|![Persona-1](img/Personas/persona1.png) |
 |------|
 |**Nome:** `Felipe Gomes`| 
 |**Idade:** `32`|  
@@ -18,7 +18,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 <br>
 
-|![Persona-2](img/imgPersonas/persona2.png) |
+|![Persona-2](img/Personas/persona2.png) |
 |------|
 |**Nome:** `Patricia Santos `| 
 |**Idade:** `37`|  
@@ -30,7 +30,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 <br>
 
-|![Persona-3](img/imgPersonas/persona3.png) |
+|![Persona-3](img/Personas/persona3.png) |
 |------|
 |**Nome:** `Gustavo Kenji`| 
 |**Idade:** `22`|  
@@ -42,7 +42,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 <br>
 
-|![Persona-4](img/imgPersonas/persona4.png) |
+|![Persona-4](img/Personas/persona4.png) |
 |------|
 |**Nome:** `Francisco Luz`| 
 |**Idade:** `65`|  
@@ -113,5 +113,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 
-![Caso de uso](img/casoDeUsoUML%20.png)
+![Caso de uso](img/Personas/casoDeUsoUML%20.png)
 
