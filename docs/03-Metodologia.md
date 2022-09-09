@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Serão abordados nesse tópico as ferramentas utilizadas para a construção da plataforma e manutenções futuras dos códigos e artefatos..
+Serão abordados nesse tópico as ferramentas utilizadas para a construção da plataforma e manutenções futuras dos códigos e artefatos.
 
 ## Relação de Ambientes de Trabalho
 
