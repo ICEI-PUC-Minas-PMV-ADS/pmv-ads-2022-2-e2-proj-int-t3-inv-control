@@ -38,10 +38,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ---
 
 ## Gerenciamento de Projeto
-A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
-
-
-A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+Nossa equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
 -	Scrum Master: 
