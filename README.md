@@ -6,7 +6,7 @@
 
 ## `EIXO 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo deste projeto de aplicação é oferecer facilidade para o controle do fluxo de mercadorias do estoque a empresas que comercializem produtos de informática e tecnologia. Isso significa praticidade e rapidez na inserção, remoção e atualização de itens do estoque, assim como celeridade na emissão de notas fiscais no ato da compra do cliente. Dessa forma, pequenos empresários desse segmento podem manejar a entrada e saída de produtos com maior eficiência. Consequentemente, é possível visualizar de forma rápida como estão as finanças do negócio e fazer projeções mais adequadas de lucro e futuros investimentos.
 
 ## Integrantes
 
