@@ -77,3 +77,20 @@ As tarefas são etiquetadas em função da natureza da atividade e seguem o segu
 <img src="img/Metodologia/Etiquetas.png">
 
 ---
+
+
+## Diagrama de Classes
+Na imagem abaixo é apresentado o diagrama de classes do projeto.
+
+<img src="img/Metodologia/DiagramaDeClasse.png">
+
+###### Desenvolvido no "LucidChart"
+
+---
+## Modelo Entidade Relacionamento
+
+Abaixo é apresentado o modelo de entidade e relacionamento (MER) do projeto.
+
+<img src="img/Metodologia/ModeloEntidadeRelacionamento.png">
+
+###### Desenvolvido no "BR Modelo Web"
