@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Na imagem abaixo é apresentado o diagrama de classes do projeto.
 
-<img src="img/Metodologia/DiagramaDeClasses.png">
+<img src="img/ArquiteturaSolucao/DiagramaDeClasses.png">
 
 ###### Desenvolvido no "LucidChart"
 
@@ -16,9 +16,11 @@ Na imagem abaixo é apresentado o diagrama de classes do projeto.
 
 Abaixo é apresentado o modelo de entidade e relacionamento (MER) do projeto.
 
-<img src="img/Metodologia/ModeloEntidadeRelacionamento(MER).png">
+<img src="img/ArquiteturaSolucao/ModeloEntidadeRelacionamento.png">
 
 ###### Desenvolvido no "BR Modelo Web"
+
+---
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
