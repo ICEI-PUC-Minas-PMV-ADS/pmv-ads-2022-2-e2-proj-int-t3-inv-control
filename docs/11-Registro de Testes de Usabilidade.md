@@ -1,8 +1,67 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+Os resultados obtidos nos testes de usabilidade realizados serão descritos a seguir.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+**1. Gostaria de usar esse sistema com frequência?**
+  
+- Concordo Completamente - 20%
+- Concordo Parcialmente - 40%
+- Não concordo nem discordo - 40%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 0%
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+**2. O sistema é complexo?**
+
+- Concordo Completamente - 0%
+- Concordo Parcialmente - 20%
+- Não concordo nem discordo - 0%
+- Discordo Parcialmente - 80%
+- Discordo Completamente - 0%
+
+**3. O sistema é fácil de usar?**
+
+- Concordo Completamente - 70%
+- Concordo Parcialmente - 10%
+- Não concordo nem discordo - 20%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 0%
+
+**4. Você precisa de ajuda de uma pessoa com conhecimentos técnicos para usar este sistema?**
+
+- Concordo Completamente - 10%
+- Concordo Parcialmente - 0%
+- Não concordo nem discordo - 10%
+- Discordo Parcialmente - 10%
+- Discordo Completamente - 70%
+
+**5. As funções do sistema estão bem integradas?**
+
+- Concordo Completamente - 60%
+- Concordo Parcialmente - 20%
+- Não concordo nem discordo - 20%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 0%
+
+**6. O sistema apresenta alguma inconsistência?**
+
+- Concordo Completamente - 0%
+- Concordo Parcialmente - 0%
+- Não concordo nem discordo - 20%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 80%
+
+**7. Você sente segurança usando o sistema?**
+
+- Concordo Completamente - 70%
+- Concordo Parcialmente - 10%
+- Não concordo nem discordo - 20%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 0%
+
+**8. O sistema é intuitivo?**
+
+- Concordo Completamente - 60%
+- Concordo Parcialmente - 30%
+- Não concordo nem discordo - 10%
+- Discordo Parcialmente - 0%
+- Discordo Completamente - 0%

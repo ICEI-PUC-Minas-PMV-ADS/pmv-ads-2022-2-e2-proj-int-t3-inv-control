@@ -1,31 +1,64 @@
 # Plano de Testes de Software
+Requisitos para realização dos testes são:
+- Site publicado na internet
+-  Navegador da internet - Chrome
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os testes funcionais a serem realizados são descritos a seguir:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Efetuar login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|	Requisito Associado 	| RF-001 - Permitir que o usuário faça login com verificação de senha. |
+| Objetivo do Teste 	| Verificar se o usuário consegue efetuar o login na aplicação.<br>  Verificar as credenciais de acesso. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Clicar em "Login" <br> - Preencher os campos obrigatórios (Usuário, Senha) <br> - Clicar em "Entrar" |
+|Critério de Êxito | - Login efetuado com sucesso |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
-
+| **Caso de Teste** 	| **CT-02 – Adicionar produto no estoque**	|
+|Requisito Associado | RF-002	- A aplicação deve possuir opção que permita o usuário inserir um produto no estoque. |
+| Objetivo do Teste 	| Verificar se o usuário consegue inserir um produto no estoque. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar em "Adicionar Produto" <br> - Preencher as caracteristicas do produto a ser inserido<br> - Clicar em "Adicionar" |
+|Critério de Êxito | - Produto adicionado com  sucesso |
+|  	|  	|
+| **Caso de Teste** 	| **CT-03 – Classificar produtos por categoria no estoque**	|
+|Requisito Associado | RF-003	- Permitir que o usuário classifique o produto inserido por categoria no estoque. |
+| Objetivo do Teste 	| Verificar se o usuário consegue classificar um produto por categoria no estoque. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar em "Filtrar" <br> - Clicar em "Categoria"<br> - Escolher a categoria do produto |
+|Critério de Êxito | - Filtro aplicado. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-04 – Permitir o usuário remover um produto do estoque**	|
+|Requisito Associado | RF-004	- Permitir que o usuário remova um produto do estoque. |
+| Objetivo do Teste 	| Verificar se o usuário consegue remover um produto do estoque. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar em "Remover Produto" <br> - Inserir o "ID" do produto<br> - Clicar em "Remover" |
+|Critério de Êxito | - Produto removido com sucesso. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Classificar produtos por categoria no estoque**	|
+|Requisito Associado | RF-005	- Permitir que o usuário pesquise um produto no estoque. |
+| Objetivo do Teste 	| Verificar se o usuário consegue pesquisar produtos no estoque. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar no campo de pesquisa <br> - Inserir "ID" ou "Nome" do produto.<br> - Clicar em "Pesquisar" |
+|Critério de Êxito | - Produto encontrado. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Mostrar quantidade de estoque atualizada**	|
+|Requisito Associado | RF-006	- Permitir que o usuário tenha acesso à quantidade atualizada do itens no estoque. |
+| Objetivo do Teste 	| Verificar quantidade de items no estoque para cada produto individual. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar no produto <br> - Visualizar a quantidade de itens deste produto |
+|Critério de Êxito | - Quantidade de itens visivel e correta. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-07 – Quantidade de itens totais no estoque**	|
+|Requisito Associado | RF-007	- Permitir que o usuário tenha acesso à contagem de itens totais no estoque. |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar a quantidade de itens totais do estoque. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Visualizar a quantidade total de itens contabilizada na interface. <br> |
+|Critério de Êxito | - Quantidade total de itens visivel na interface. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-08 – ID dos produtos no estoque**	|
+|Requisito Associado | RF-008	- Permitir que cada item do estoque tenha um número único (ID). |
+| Objetivo do Teste 	| Verificar se cada produto tem seu número de identificação (ID). |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Visualizar o canto esquerdo da tabela pelo número de ID do produto <br>  |
+|Critério de Êxito | - Produto possuir ID. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-09 – Gerar nota fiscal do produto**	|
+|Requisito Associado | RF-009	- Permitir que o usuário gere uma nota fiscal a partir do número único do produto (ID). |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar nota fiscal informando o ID do produto vendido. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar em "Produtos vendidos" <br> - Clicar no produto desejado<br> - Clicar em "Gerar nota fiscal do produto"  |
+|Critério de Êxito | - Nota fiscal gerada. |
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
