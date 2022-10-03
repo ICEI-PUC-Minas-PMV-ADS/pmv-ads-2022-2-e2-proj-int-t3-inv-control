@@ -13,7 +13,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | --------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Repositório de código fonte       | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-inv-control                |
 | Documentos do projeto             | Github     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t3-inv-control/tree/main/docs |
-| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/signin?next=/project/6201965/design/86183150                                                                                           |
+| Projeto de Interface e Wireframes | MarvelApp  | https://marvelapp.com/prototype/2ge7c20g/screen/88950445                                                                                           |
 | Gerenciamento do Projeto          | Trello     | https://trello.com/b/8lJOQrrJ/inv-control                                                                               |
 
 ---
