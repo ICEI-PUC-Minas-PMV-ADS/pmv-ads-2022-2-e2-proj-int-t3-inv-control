@@ -25,7 +25,7 @@ Abaixo é apresentado o modelo de entidade e relacionamento (MER) do projeto.
 
 O Projeto da Base de Dados corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-<img src="img/ArquiteturaSolucao/ProjetoBaseDeDados.jpeg">
+<img src="img/ArquiteturaSolucao/ProjetoBaseDeDados.png">
 
 ## Tecnologias Utilizadas
 
