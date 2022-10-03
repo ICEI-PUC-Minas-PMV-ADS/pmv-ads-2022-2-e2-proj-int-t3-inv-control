@@ -1,8 +1,6 @@
 # Apresentação
 
 
-=======
-
 
 https://user-images.githubusercontent.com/88688861/193698563-bc6611b3-2b97-48c2-8202-c0d56795f6d7.mp4
 
@@ -14,12 +12,8 @@ Nome e marca do projeto
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+<img src="img/Logo/I-Estoque.png">
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
 
 ## Conjunto de Slides (Estrutura)
 
