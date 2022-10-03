@@ -10,12 +10,11 @@ O objetivo deste projeto de aplicação é oferecer facilidade para o controle d
 
 ## Integrantes
 
-* Eduardo Vinicius Rodrigues Silva
+
 * Gustavo Alves Oliveira
-* Henrique Balmant Rocha Araújo
 * Jefferson Filho
 * José Carlos da Costa Júnior
-* Pedro Henrique Lino Raimundo
+
 
 ## Orientador
 
