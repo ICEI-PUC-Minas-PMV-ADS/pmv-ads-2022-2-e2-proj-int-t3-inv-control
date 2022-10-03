@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/88688861/193698563-bc6611b3-2b97-48c2-
 
 ## Título do Projeto
 
-Nome e marca do projeto
+I - Estoque
 
 ## Identidade Visual (Marca, Design)
 
