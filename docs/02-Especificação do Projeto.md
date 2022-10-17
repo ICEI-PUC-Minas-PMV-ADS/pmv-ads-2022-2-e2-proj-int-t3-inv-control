@@ -114,5 +114,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 Na imagem abaixo é apresentado o diagrama de casos de uso do projeto.
 
 
-<img src="img/Personas/CasodeUsoUML.png" />
+<img src="./img/Personas/CasodeUsoUML.png" />
 
