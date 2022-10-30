@@ -29,17 +29,34 @@ O Projeto da Base de Dados corresponde à representação dos dados em tabelas j
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+<b>IDE:</b>
+- `VisualStudio 2022`
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<b>Linguagens:</b>
+- `C#`
+- `Html`
+- `Css`
+- `JavaScript`
+
+<b>Frameworks:</b>
+- `ASP.NET Core` 
+- `Bootstrap `
+- `EntityFramework.`
+  
+<b>Banco de dados:</b> 
+- `Microsoft SQL Server 2019`
+  
+<b>Pacotes:</b> 
+- `BCrypt.Net-Next`
+- `Microsoft.EntityFrameworkCore.Tools`
+- `Microsoft.EntityFrameworkCore.SqlServer`
+- `Microsoft.VisualStudio.Web.CodeGeneration.Design`
+
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A aplicação utiliza a plataforma `SmarterASP.NET` como ambiente de hospedagem do projeto.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+A aplicação é mantida na seguinte URL:
+
+http://josecosta1984-001-site1.etempurl.com/

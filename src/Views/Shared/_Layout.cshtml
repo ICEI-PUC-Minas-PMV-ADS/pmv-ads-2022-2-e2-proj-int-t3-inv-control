@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ControleDeEstoque</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+  
+</head>
+<body>
+    <input type="checkbox" id="check" checked />
+    <header>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <label for="check">
+                <i id="sidebar_btn" class="fa-solid fa-arrow-right-from-bracket"></i>
+            </label>
+        }
+        else
+        {
+            <label for="check"></label>
+        }
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img width="110" height="50" src="~/imagens/Logo.png" alt="Logo" /></a>
+                <div>
+                    <ul class="d-flex navbar-nav align-items-end">
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li id="logExt">
+                                <a class=" botaoSair text-decoration-none" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li id="logExt">
+                                <a class="btn btn-primary botaoLogin " asp-controller="Usuarios" asp-action="Login">Login</a>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Sidebar-->
+    <div id="sidebar">
+        <center>
+            <img class="imagem" src="~/imagens/Userimg.png" />
+            <h3 class="text-white"> @User.Identity.Name </h3>
+        </center>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            @if (User.IsInRole("Administrador"))
+            {
+                <a class="nav-link" asp-area="" asp-controller="Produtos" asp-action="Index"><i class="icones fa-brands fa-product-hunt"></i><span>Produtos</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index"><i class="icones fa-solid fa-user"></i><span>Usuarios</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index"><i class="icones fa-solid fa-people-group"></i><span>Clientes</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Fornecedores" asp-action="Index"><i class="icones fa-solid fa-truck"></i><span>Fornecedores</span></a>
+            }
+            @if (User.IsInRole("Funcionario"))
+            {
+                <a class="nav-link" asp-area="" asp-controller="Produtos" asp-action="Index"><i class="icones fa-brands fa-product-hunt"></i><span>Produtos</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index"><i class="icones fa-solid fa-people-group"></i><span>Clientes</span></a>
+                <a class="nav-link" asp-area="" asp-controller="Fornecedores" asp-action="Index"><i class="icones fa-solid fa-truck"></i><span>Fornecedores</span></a>
+            }
+        }
+        else
+        {
+            <a class="notallowed"><i class="icones fa-brands fa-product-hunt"></i><span>Produtos</span></a>
+            <a class="notallowed"><i class="icones fa-solid fa-user"></i><span>Usuarios</span></a>
+            <a class="notallowed"><i class="icones fa-solid fa-people-group"></i><span>Clientes</span></a>
+            <a class="notallowed"><i class="icones fa-solid fa-truck"></i><span>Fornecedores</span></a>
+        }
+    </div>
+    <main role="main" class="">
+        <div id="body" class="col-lg-10">
+            @RenderBody()
+        </div>
+    </main>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("css", required: false)
+</body>
+</html>

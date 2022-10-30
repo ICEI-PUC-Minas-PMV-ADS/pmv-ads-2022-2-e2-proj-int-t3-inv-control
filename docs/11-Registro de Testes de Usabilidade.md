@@ -20,19 +20,19 @@ Os resultados obtidos nos testes de usabilidade realizados serão descritos a se
 
 **3. O sistema é fácil de usar?**
 
-- Concordo Completamente - 70%
-- Concordo Parcialmente - 10%
-- Não concordo nem discordo - 20%
+- Concordo Completamente - 100%
+- Concordo Parcialmente - 0%
+- Não concordo nem discordo - 0%
 - Discordo Parcialmente - 0%
 - Discordo Completamente - 0%
 
 **4. Você precisa de ajuda de uma pessoa com conhecimentos técnicos para usar este sistema?**
 
-- Concordo Completamente - 10%
+- Concordo Completamente - 0%
 - Concordo Parcialmente - 0%
-- Não concordo nem discordo - 10%
+- Não concordo nem discordo - 0%
 - Discordo Parcialmente - 10%
-- Discordo Completamente - 70%
+- Discordo Completamente - 90%
 
 **5. As funções do sistema estão bem integradas?**
 
@@ -60,8 +60,8 @@ Os resultados obtidos nos testes de usabilidade realizados serão descritos a se
 
 **8. O sistema é intuitivo?**
 
-- Concordo Completamente - 60%
-- Concordo Parcialmente - 30%
+- Concordo Completamente - 80%
+- Concordo Parcialmente - 10%
 - Não concordo nem discordo - 10%
 - Discordo Parcialmente - 0%
 - Discordo Completamente - 0%

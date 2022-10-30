@@ -1,0 +1,54 @@
+﻿body {
+    overflow-x:scroll; 
+}
+
+.endereco {
+    display: flex;
+}
+
+.botoes-tabelas {
+    padding: 2px;
+    color: black;
+    font-size: small;
+    border: 0.1px solid;
+    border-radius: 5px;
+    transition: 0.4s ease;
+    text-decoration: none;
+    
+}
+
+.botoes-tabelas:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.botoes-tabelas > span {
+    padding: 5px;
+}
+
+
+@media (max-width: 877px) {
+    .botoes-tabelas {
+        display:block;
+        padding: 2px;
+        color: black;
+        font-size: small;
+        border: 0.1px solid;
+        border-radius: 5px;
+        transition: 0.4s ease;
+        text-decoration: none;
+    }
+    .btnSection a{
+        margin:2px;
+    }
+
+        .botoes-tabelas:hover {
+            background-color: #0d6efd;
+            color: white;
+        }
+
+        .botoes-tabelas > span {
+            padding: 5px;
+        }
+
+}

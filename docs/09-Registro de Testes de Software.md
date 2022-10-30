@@ -3,43 +3,43 @@
 
 | Testes 	| CT 01 – Efetuar login |
 |:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
+<img src="img/Testes/Login.png">
 
 | Testes 	| CT 02 – Adicionar produto no estoque |
 |:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
 
-| Testes 	| CT 03 – Classificar produtos por categoria no estoque |
+<img src="img/Testes/ProdutoAdd.png">
+<img src="img/Testes/ProdutoAdd2.png">
+
+| Testes 	| CT 03 – Permitir o usuário remover um produto do estoque |
+|:---:	|:---:	|
+
+<img src="img/Testes/Remover.png">
+
+| Testes 	| CT 04 – Classificar produtos por categoria no estoque |
 |:---:	|:---:	|
 ~ link do vídeo ou imagem aqui ~
+- Em desenvolvimento
 
-| Testes 	| CT 04 – Permitir o usuário remover um produto do estoque |
+| Testes 	| CT 05 – Mostrar quantidade de items individuais no estoque |
+|:---:	|:---:	|
+
+<img src="img/Testes/Quantidade.png">
+
+| Testes 	| CT 06 – Quantidade de itens totais no estoque |
 |:---:	|:---:	|
 ~ link do vídeo ou imagem aqui ~
+ - Em desenvolvimento
+  
+| Testes 	| CT 07 – ID dos produtos no estoque |
+|:---:	|:---:	|
+<img src="img/Testes/Quantidade.png">
 
-| Testes 	| CT 05 – Classificar produtos por categoria no estoque |
+| Testes 	| CT 08 – Gerar nota fiscal do produto |
 |:---:	|:---:	|
 ~ link do vídeo ou imagem aqui ~
-
-| Testes 	| CT 06 – Mostrar quantidade de estoque atualizada |
-|:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
-
-| Testes 	| CT 07 – Quantidade de itens totais no estoque |
-|:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
-
-| Testes 	| CT 08 – ID dos produtos no estoque |
-|:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
-
-| Testes 	| CT 09 – Gerar nota fiscal do produto |
-|:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
+- Em desenvolvimento
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Todas as funcionalidades feitas até o momento funcionam perfeitamente, faltando apenas implementar as que faltam para a aplicação
