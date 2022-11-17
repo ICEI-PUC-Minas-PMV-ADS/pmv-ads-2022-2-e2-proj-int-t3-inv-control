@@ -10,3 +10,10 @@
 #### Adicionado
 - Layout Front-end
 - Funcionalidades Crud
+
+### [1.0.0] - 17/11/2022
+#### Adicionado
+- Layout Home Page
+- Exportar tabelas para Excel
+- Barra de pesquisa
+- Email para suporte

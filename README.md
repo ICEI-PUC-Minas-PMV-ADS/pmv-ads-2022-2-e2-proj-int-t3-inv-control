@@ -22,13 +22,19 @@ O objetivo deste projeto de aplicação é oferecer facilidade para o controle d
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+<b>Acesse a aplicação através do link abaixo</b>:
+http://josecosta1984-001-site3.etempurl.com/
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+<b>Informações para login</b>
+- Entrar como funcionário:
+- <b>Login</b>: funcionario
+- <b>Senha</b>: 123456
+  
+- Entrar como administrador:
+- <b>Login</b>: administrador
+- <b>Senha</b>: 123456
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 
@@ -54,8 +60,6 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 
 # Apresentação
 
-
-
-https://user-images.githubusercontent.com/88688861/193700825-a4708b79-0a1b-4c1d-ba7c-d3fde8f261c2.mp4
+<li><a href="https://user-images.githubusercontent.com/88688861/193700825-a4708b79-0a1b-4c1d-ba7c-d3fde8f261c2.mp4">Video</a></li>
 
 
