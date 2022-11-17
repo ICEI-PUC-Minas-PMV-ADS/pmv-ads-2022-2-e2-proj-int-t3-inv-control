@@ -1,0 +1,84 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&family=Raleway:wght@400;500;900&family=Roboto:wght@900&display=swap');
+
+
+#topo {
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 10px #f3f3f3;
+}
+
+h1 span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+
+    color: #286793;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #494949;
+}
+
+h2 span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 33px;
+    color: #286793;
+}
+
+p span {
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    font-size:15px;
+}
+
+
+#textoMeio{
+    display:block;
+    justify-content:center;
+}
+
+
+
+.cards {
+    border-style: solid;
+    border-color: #EDEDED;
+    box-shadow: 0px 0px 32px -13px rgb(0 0 0 / 50%);
+    margin:0px 15px 15px 0px;
+    padding: 25px 15px 25px 15px;
+    border-radius: 10px 10px 10px 10px;
+
+    transition:transform 0.5s;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cardIcon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    padding-top:10px;
+}
+span{
+    margin-right:7px;
+}
+
+h4 {
+    padding-top: 30px;
+    color: #494949;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h4 span {
+    color: #286793;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

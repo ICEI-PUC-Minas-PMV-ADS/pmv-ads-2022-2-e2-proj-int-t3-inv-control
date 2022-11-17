@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ControleDeEstoque.Models.Produto>
+
+@section css {
+    <link rel="stylesheet" href="~/css/views.css" asp-append-version="true" />
+}
+
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NomeProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PrecoProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DescricaoProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QtdProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CategoriaProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fornecedor)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrecoProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescricaoProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QtdProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoriaProd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fornecedor.RazaoSocial)
+                </td>
+                <td>
+                    <a class="botoes-tabelas text-decoration-none" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="botoes-tabelas text-decoration-none" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                    <a class="botoes-tabelas text-decoration-none" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

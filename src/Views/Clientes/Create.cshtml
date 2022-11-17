@@ -1,0 +1,79 @@
+﻿@model ControleDeEstoque.Models.Cliente
+
+@{
+    ViewData["Title"] = "Create";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/create.css" asp-append-version="true" />
+}
+
+<link rel="stylesheet" href="~/js/site.js" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4>Cliente</h4>
+            <hr />
+            <div class="form-group">
+                <label asp-for="NomeOuRazaoSocial" class="control-label"></label>
+                <input asp-for="NomeOuRazaoSocial" class="form-control" />
+                <span asp-validation-for="NomeOuRazaoSocial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailCliente" class="control-label"></label>
+                <input type="email" asp-for="EmailCliente" class="form-control" />
+                <span asp-validation-for="EmailCliente" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TelefoneCliente" class="control-label"></label>
+                <input type="tel" asp-for="TelefoneCliente" onkeyup="handlePhone(event)" class="form-control" />
+                <span asp-validation-for="TelefoneCliente" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CepCliente" class="control-label"></label>
+                <input type="text" id="cep" size="10" asp-for="CepCliente" onkeyup="handleCep(event)" class="form-control" />
+                <span asp-validation-for="CepCliente" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EnderecoCliente" class="control-label"></label>
+                <input type="text" id="rua" size="60" asp-for="EnderecoCliente" class="form-control" />
+                <span asp-validation-for="EnderecoCliente" class="text-danger"></span>
+            </div>
+            <div class="endereco">
+                <div class="form-group">
+                    <label asp-for="UfCliente" class="control-label"></label>
+                    <input type="text" id="uf" size="2" asp-for="UfCliente" class="form-control" />
+                    <span asp-validation-for="UfCliente" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CidadeCliente" class="control-label"></label>
+                    <input type="text" id="cidade" size="40" asp-for="CidadeCliente" class="form-control" />
+                    <span asp-validation-for="CidadeCliente" class="text-danger"></span>
+                </div>  
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="DataCadastroCliente" class="control-label"></label>
+                <input asp-for="DataCadastroCliente" class="form-control" />
+                <span asp-validation-for="DataCadastroCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group pb-4">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a class="btn btn-outline-info" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

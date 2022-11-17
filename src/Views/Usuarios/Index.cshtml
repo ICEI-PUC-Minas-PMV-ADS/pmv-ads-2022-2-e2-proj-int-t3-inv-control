@@ -1,0 +1,89 @@
+﻿@model X.PagedList.IPagedList<ControleDeEstoque.Models.Usuario>
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section css {
+    <link rel="stylesheet" href="~/css/views.css" asp-append-version="true" />
+}
+
+<h2>Usuários</h2>
+<hr />
+
+<div class="section-pesquisa">
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Adicionar</a>
+    </p>
+    <form asp-controller="Usuarios" asp-action="Index">
+        <p>
+            <input class="box-pesquisa " type="text" name="Pesquisa" placeholder="Pesquisar..." />
+
+             <button class="botao-pesquisa btn btn-outline-info" type="submit">
+                    <span>Buscar</span>
+            </button>
+        </p>
+    </form>
+</div>
+
+<table class="table table-bordered ">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Login
+            </th>
+
+            <th>
+                Perfil
+            </th>
+            <th class="ultimoTh">
+                 <a class="icone-excel" asp-controller="Usuarios" asp-action="Excel"><i class="fa-solid fa-download"></i></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmaildoUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Login)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.PerfilUsuario)
+            </td>
+            <td>
+                <a class="icone-editar" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square"></i></a>
+                <a class="icone-detalhes" asp-action="Details" asp-route-id="@item.Id"><i class="fa-solid fa-circle-info"></i></a>
+                <a class="icone-deletar" asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash-can"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="row">
+    <div id="paginas" class="col-md-8">
+        @Html.PagedListPager(Model, pagina => Url.Action("Index", new {pagina}),
+        new X.PagedList.Web.Common.PagedListRenderOptions{
+        LiElementClasses = new string[] {"page-item"},
+        PageClasses = new string[] {"page-link"}
+        })
+
+        <span class="text-muted">
+            Exibindo @Model.Count de @Model.TotalItemCount
+        </span>
+    </div>
+</div>

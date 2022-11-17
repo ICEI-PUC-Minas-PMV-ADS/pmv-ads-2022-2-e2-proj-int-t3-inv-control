@@ -1,0 +1,62 @@
+﻿@model ControleDeEstoque.Models.Fornecedor
+
+@{
+    ViewData["Title"] = "Create";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/create.css" asp-append-version="true" />
+}
+<script src="~/js/site.js"></script>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h4>Fornecedor</h4>
+            <hr />
+            <div class="form-group">
+                <label asp-for="RazaoSocial" class="control-label"></label>
+                <input asp-for="RazaoSocial" class="form-control" />
+                <span asp-validation-for="RazaoSocial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailFornecedor" class="control-label"></label>
+                <input type="email" asp-for="EmailFornecedor" class="form-control" />
+                <span asp-validation-for="EmailFornecedor" class="text-danger"></span>
+            </div>
+            <div class="endereco">
+                <div class="form-group">
+                    <label asp-for="UfFornecedor" class="control-label"></label>
+                    <select asp-for="UfFornecedor" asp-items="Html.GetEnumSelectList<UfFornecedor>()" class="form-control"><option></option></select>
+                    <span asp-validation-for="UfFornecedor" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CidadeFornecedor" class="control-label"></label>
+                    <input asp-for="CidadeFornecedor" class="form-control" />
+                    <span asp-validation-for="CidadeFornecedor" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="TelefoneFornecedor" class="control-label"></label>
+                <input type="tel" asp-for="TelefoneFornecedor" onkeyup="handlePhone(event)" class="form-control" />
+                <span asp-validation-for="TelefoneFornecedor" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="DataCadastroFornecedor" class="control-label"></label>
+                <input asp-for="DataCadastroFornecedor" class="form-control" />
+                <span asp-validation-for="DataCadastroFornecedor" class="text-danger"></span>
+            </div>
+
+            <div class="form-group pb-4">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+                <a class="btn btn btn-outline-info" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

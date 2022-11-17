@@ -1,0 +1,193 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    min-height: 100%;
+}
+
+
+
+main {
+   width:90%;
+}
+
+
+#logExt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -41px
+}
+
+.navbar-brand {
+    margin-top: -54px;
+    margin-left:23px;
+}
+
+header {
+    z-index:1;
+    position: fixed;
+    background: #286793;
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+#botao {
+    background-color: red;
+}
+
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding-top: 30px;
+    margin-top: 60px;
+    left: 0;
+    background: rgb(5, 68, 104);
+    transition: 0.5s;
+    transition-property: left;
+    z-index: 1;
+}
+
+#sidebar .imagem {
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+#sidebar h2 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+
+#sidebar a:hover {
+    background: #286793;
+}
+
+#sidebar .icones {
+    padding-right: 10px;
+}
+
+#sidebar a, .icones {
+    transition: 0.5s;
+    transition-property: margin-left;
+}
+
+#sidebar > .nav-link:hover, .layoutIcons:hover {
+    margin-left: 5px;
+}
+
+
+
+
+label #sidebar_btn {
+    z-index: 1;
+    position: fixed;
+    left: 330px;
+    color: #fff;
+    font-size: 25px;
+    margin: -20px -120px;
+    padding-top: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: color;
+    transition: 0.5s ease;
+    transition-property: transform;
+}
+
+label #sidebar_btn:hover {
+    color: #17a2b8;
+}
+
+#sidebar_btn {
+    transform: rotateY(180deg); 
+}
+
+#check:checked ~ header label #sidebar_btn {
+    transform: rotate(0deg); 
+    transition:0.5s ease;
+    transition-property:transform;
+}
+
+#check:checked ~ #sidebar {
+    left: -190px;
+}
+
+#check:checked ~ #sidebar a span {
+     display: none;
+}
+
+#check:checked ~ #sidebar center h3 {
+    display: none;
+}
+
+#check:checked ~ #sidebar a {
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+
+#check {
+  display:none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+#body {
+    margin-left:20rem;
+    padding-top: 5rem;
+    transition: 0.5s;
+    transition-property: margin-left;
+
+}
+
+#check:checked ~ main #body {
+    margin-left: 5rem;
+
+}
+
+
+.notallowed {
+    cursor: not-allowed;
+}
+
+
+
