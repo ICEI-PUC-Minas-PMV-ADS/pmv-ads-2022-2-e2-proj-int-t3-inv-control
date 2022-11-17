@@ -18,8 +18,7 @@
 
 | Testes 	| CT 04 – Classificar produtos por categoria no estoque |
 |:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
-- Em desenvolvimento
+<img src="img/Testes/Classificacao.png">
 
 | Testes 	| CT 05 – Mostrar quantidade de items individuais no estoque |
 |:---:	|:---:	|
@@ -28,17 +27,22 @@
 
 | Testes 	| CT 06 – Quantidade de itens totais no estoque |
 |:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
- - Em desenvolvimento
+
+<img src="img/Testes/QuantidadeTotal.png">
   
 | Testes 	| CT 07 – ID dos produtos no estoque |
 |:---:	|:---:	|
+
 <img src="img/Testes/Quantidade.png">
 
-| Testes 	| CT 08 – Gerar nota fiscal do produto |
+| Testes 	| CT 08 – Gerarrelatorio da tabela de produtos |
 |:---:	|:---:	|
-~ link do vídeo ou imagem aqui ~
-- Em desenvolvimento
+
+<img src="img/Testes/Relatorio.png">
+
+---
+<img src="img/Testes/Relatorio2.png">
+
 
 ## Avaliação
 

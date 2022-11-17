@@ -47,6 +47,8 @@ O Projeto da Base de Dados corresponde à representação dos dados em tabelas j
 - `Microsoft SQL Server 2019`
   
 <b>Pacotes:</b> 
+- `XPagedList`
+- `ClosedXML`
 - `BCrypt.Net-Next`
 - `Microsoft.EntityFrameworkCore.Tools`
 - `Microsoft.EntityFrameworkCore.SqlServer`
@@ -59,4 +61,4 @@ A aplicação utiliza a plataforma `SmarterASP.NET` como ambiente de hospedagem 
 
 A aplicação é mantida na seguinte URL:
 
-http://josecosta1984-001-site1.etempurl.com/
+http://josecosta1984-001-site3.etempurl.com/

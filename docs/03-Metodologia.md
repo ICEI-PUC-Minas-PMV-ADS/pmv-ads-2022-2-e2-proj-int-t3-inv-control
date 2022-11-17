@@ -35,12 +35,8 @@ Nossa equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para
 A equipe está organizada da seguinte maneira:
 -	Scrum Master: 
     -  `Gustavo Alves Oliveira`
--	Product Owner:
-    -  `Eduardo Vinicius Rodrigues Silva`
 -	Equipe de Desenvolvimento:
-	-    `Henrique Balmant Rocha Araújo`
 	-    `José Carlos da Costa Júnior`
-	-    `Pedro Henrique Lino Raimundo`
 -	Equipe de Design:
     -	`Jefferson Filho`
 

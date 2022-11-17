@@ -85,7 +85,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Permitir que o usuário tenha acesso à quantidade atualizada do item no estoque  | ALTA |
 |RF-007| Permitir que o usuário tenha acesso à contagem de itens totais no estoque | MÉDIA |
 |RF-008| Permitir que cada item do estoque tenha um número único | MÉDIA |
-|RF-009| Permitir que o usuário gere uma nota fiscal a partir do número único do produto | MÉDIA |
+|RF-009| Permitir que o usuário gere um relatório da tabela da tabela produtos | MÉDIA |
 
 
 

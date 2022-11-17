@@ -56,9 +56,9 @@ Os testes funcionais a serem realizados são descritos a seguir:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Visualizar o canto esquerdo da tabela pelo número de ID do produto <br>  |
 |Critério de Êxito | - Produto possuir ID. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-09 – Gerar nota fiscal do produto**	|
-|Requisito Associado | RF-009	- Permitir que o usuário gere uma nota fiscal a partir do número único do produto (ID). |
-| Objetivo do Teste 	| Verificar se o usuário consegue gerar nota fiscal informando o ID do produto vendido. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "estoque" <br> - Clicar em "Produtos vendidos" <br> - Clicar no produto desejado<br> - Clicar em "Gerar nota fiscal do produto"  |
-|Critério de Êxito | - Nota fiscal gerada. |
+| **Caso de Teste** 	| **CT-09 – Gerar relatório da tabela de produtos**	|
+|Requisito Associado | RF-009	- Permitir que o usuário gere um relatório da tabela de produtos da aplicação. |
+| Objetivo do Teste 	| Verificar se o usuário consegue gerar o relatório em Excel da tabela de produtos. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site: A definir<br> - Efetuar login <br> - Entrar no campo de "Produtos" <br> - Clicar no icone de download (cor verde)<br> |
+|Critério de Êxito | - Relatório gerado. |
  
