@@ -18,6 +18,8 @@
 
 | Testes 	| CT 04 – Classificar produtos por categoria no estoque |
 |:---:	|:---:	|
+
+<img src="img/Testes/Classificacao2.png">
 <img src="img/Testes/Classificacao.png">
 
 | Testes 	| CT 05 – Mostrar quantidade de items individuais no estoque |
@@ -35,7 +37,7 @@
 
 <img src="img/Testes/Quantidade.png">
 
-| Testes 	| CT 08 – Gerarrelatorio da tabela de produtos |
+| Testes 	| CT 08 – Gerar relatorio da tabela de produtos |
 |:---:	|:---:	|
 
 <img src="img/Testes/Relatorio.png">
